@@ -6,4 +6,4 @@ This repository contains two folders: one is for monthly data, and the other is 
 
 The file contains all the code used for parameter optimization, model construction, training and prediction.The user needs to open this file using MATLAB R2023b.The origin_data.mat file is the raw data, containing precipitation and other meteorological data.
 
-There are two folders in each folder; the parameter optimization folder contains the algorithms used in the study to optimize the decomposition parameters of the VMD, and the Decomposition and forecasting folder contains the various decomposition methods to decompose the raw data so that forecasting can be done in the MAIN. 
+There are two folders in each folder; the parameter optimization folder contains the algorithms used in the study to optimize the decomposition parameters of the VMD, and the Decomposition and forecasting folder contains the various decomposition methods to decompose the raw data so that forecasting can be done in the main. 
