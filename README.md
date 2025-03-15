@@ -1,2 +1,7 @@
 # rainfall-prediction
-To improve the prediction accuracy of mid- to long-term rainfall, this study proposes the CPO algorithm to optimize the VMD optimization decomposition process and uses a hybrid CNN-GRU model for next -month and next-week rainfall forecasting.
+## Project Introduction
+To address the issues of insufficient data processing and significant discrepancies between predicted and actual results in existing medium and long-term rainfall prediction methods, this paper proposes a multifeature hybrid rainfall prediction model that optimizes VMD parameters using the CPO optimization algorithm with the minimum information entropy as the objective function. The model integrates MIC feature selection and a CNN-GRU neural network. The model was validated via multifeature meteorological data from two typical regions and was compared with 17 other models. The results show that the proposed model outperforms other models in terms of robustness and prediction accuracy.
+## Instruction for Use
+This repository contains two folders: one is for monthly data, and the other is for weekly data. The code in the two folders is basically the same, but the original data and result files are different.
+The file contains all the code used for parameter optimization, model construction, training and prediction.The user needs to open this file using MATLAB R2023b.The origin_data.mat file is the raw data, containing precipitation and other meteorological data.
+The results of the training set and the prediction set can be obtained by running the main function separately.
