@@ -4,6 +4,5 @@ To address the issues of insufficient data processing and significant discrepanc
 ## Instruction for Use
 This repository contains two folders: one is for monthly data, and the other is for weekly data. The code in the two folders is basically the same, but the original data and result files are different.
 
-The file contains all the code used for parameter optimization, model construction, training and prediction.The user needs to open this file using MATLAB R2023b.The origin_data.mat file is the raw data, containing precipitation and other meteorological data.
-
+The file contains all the code used for parameter optimization, model construction, training and prediction.The user needs to open the file using MATLAB R2023b. month.xlsx is the raw monthly data and week.xlsx is the raw weekly data which contains precipitation and other meteorological data.
 There are two folders in each folder; the parameter optimization folder contains the algorithms used in the study to optimize the decomposition parameters of the VMD, and the Decomposition and forecasting folder contains the various decomposition methods to decompose the raw data so that forecasting can be done in the main. 
